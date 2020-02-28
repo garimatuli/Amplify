@@ -1,12 +1,12 @@
 {
-    "projectName": "Amplify-Eves",
+    "projectName": "Eves-React-App",
     "version": "3.0",
     "frontend": "javascript",
     "javascript": {
         "framework": "react-native",
         "config": {
             "SourceDir": "/",
-            "DistributionDir": "/",
+            "DistributionDir": "build",
             "BuildCommand": "npm.cmd run-script build",
             "StartCommand": "npm.cmd run-script start"
         }

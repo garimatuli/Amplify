@@ -97,9 +97,7 @@ import { createTodo } from './src/graphql/mutations';
 import { listTodos } from './src/graphql/queries';
 import { onCreateTodo } from './src/graphql/subscriptions';
 
-import awsmobile from './aws-exports';
-API.configure(awsmobile);             // Configure Amplify
-PubSub.configure(awsmobile);
+
 
 async function createNewTodo() {
   const todo = { name: "Use AppSync" , description: "Realtime and Offline"}
